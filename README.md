@@ -3,9 +3,10 @@
 ## C++
 ### 1. Data structures for C++:
 
-#### 1.1 Vector
-`#include <vector> `
-`std::vector`
+### 1.1 Vector
+```#include <vector> ```
+
+```std::vector```
 
 **Use for**
 * Simple storage
@@ -33,8 +34,9 @@
 | Find Index   |          `O(1)` |
 | Find Object  |          `O(n)` |
 
-#### 1.2  Deque
+### 1.2  Deque
 `#include <deque> `
+
 `std::deque`
 
 **Use for**
@@ -48,8 +50,9 @@
 * Pronounced 'deck'
 * Stands for **D**ouble **E**nded **Que**ue
 
-#### 1.3 List
+### 1.3 List
 `#include <list> `
+
 `std::list`
 
 **Use for**
@@ -72,8 +75,9 @@
 | Find Index   |          `O(n)` |
 | Find Object  |          `O(n)` |
 
-#### 1.4 Map
+### 1.4 Map
 `#include <map> `
+
 `std::map`
 
 **Use for**
@@ -113,8 +117,9 @@
 | Remove by Key       |          `O(1)` |
 | Find/Remove Value   |              -- |
 
-#### 1.5 Set
+### 1.5 Set
 `#include <set> `
+
 `std::set`
 
 **Use for**
@@ -136,8 +141,9 @@
 | Remove       |     `O(log(n))` |
 | Find         |     `O(log(n))` |
 
-#### 1.6 Stack
+### 1.6 Stack
 `#include <stack> `
+
 `std::stack`
 
 **Use for**
@@ -152,8 +158,9 @@
 | Pop          |          `O(1)` |
 | Top          |          `O(1)` |
 
-#### 1.7 Queue
+### 1.7 Queue
 `#include <queue> `
+
 `std::queue`
 
 **Use for**
@@ -165,8 +172,9 @@
 **Notes**
 * Often implemented as a `std::deque`
 
-#### 1.8 Priority Queue 
+### 1.8 Priority Queue 
 `#include <priority_queue>`
+
 `std::priority_queue`
 
 **Use for**
